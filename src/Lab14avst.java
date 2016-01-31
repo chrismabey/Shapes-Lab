@@ -17,6 +17,9 @@ public class Lab14avst extends Applet
 		shapes.add(triangle);
 		shapes.add(octagon);
 		shapes.add(circle);
+		for(Shape shape: shapes)
+			shape.drawShape(g);
+		
 		drawGrid(g);
    }
 
